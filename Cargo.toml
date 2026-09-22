@@ -1,0 +1,9 @@
+[package]
+name = "sortlab"
+version = "1.0.0"
+edition = "2021"
+description = "Benchmark pack for 12 sorting algorithms over data patterns: CSV results, stability tests, ASCII charts"
+license = "MIT"
+
+[profile.release]
+opt-level = 3
